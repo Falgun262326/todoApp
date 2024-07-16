@@ -1,0 +1,21 @@
+.about{
+    width: 100%;
+    height: calc(100vh - 125px);
+}
+
+.aboutPage{
+    width: 50ch;
+    position: absolute;
+    margin-top: 5em;
+    text-align: justify;
+    /* background-color: bisque; */
+}
+
+.aboutPage h1{
+    border-bottom: 2px solid burlywood;
+    padding-bottom: 0.2em;
+}
+
+.aboutPage p{
+    margin-top: 1.5em;
+}

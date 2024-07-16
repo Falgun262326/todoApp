@@ -1,0 +1,74 @@
+.todo{
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 142px);
+    max-height: auto;
+}
+
+.todoInputs{
+    border: none;
+    outline: none;
+}
+
+.todoInputsDiv{
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#textArea{
+    display: none;
+    border-bottom-left-radius: 10px;
+}
+
+.todoBtn{
+    background-color: rgb(205, 159, 99);
+    border-radius: 0.3em;
+    color: whitesmoke !important;
+    border: none;
+    outline: none;
+    margin-top: 1em;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+
+.todoCard{
+    border: 1px solid black;
+}
+
+.todoCardP{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cardIcons{
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+    background-color: antiquewhite;
+    transition: all 300ms;
+}
+
+.cardIcons:hover{
+    scale: 1.1;
+}
+
+.del{
+    background:rgb(156, 26, 52) ;
+    color: white;
+}
+
+.todoUpdate{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 80vh;
+    background-color: tan;
+    display: none;
+}
+
+.todoInputs{
+    height: 100%;
+}

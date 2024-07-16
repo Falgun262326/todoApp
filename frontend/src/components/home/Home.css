@@ -1,0 +1,18 @@
+.home{
+    width: 100%;
+    height: calc(100vh - 125px);
+}
+
+.home h1{
+    font-size: 60px ;
+}
+
+.homeBtn{
+    background-color: rgb(205, 159, 99);
+    border-radius: 0.3em;
+    color: whitesmoke !important;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}

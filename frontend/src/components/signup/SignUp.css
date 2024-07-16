@@ -1,0 +1,27 @@
+.signup{
+    width: 100%;
+    height: calc(100vh - 125px);
+}
+
+.column{
+    height: calc(100vh - 125px);
+}
+
+.signInHeading{
+    font-size: 5rem;
+    color: burlywood;
+}
+
+.signUpBtn{
+    background-color: burlywood;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-inline: 2em;
+    padding-block: 0.6em;
+}
+
+.inputSignUp{
+    outline: none;
+}
